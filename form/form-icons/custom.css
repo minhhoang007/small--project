@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+.icon {
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+input[type=text]:focus {
+    border: 2px solid dodgerblue;
+}
+input[type=submit] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+    width: 100%;
+    opacity: .9;
+}
+
+input[type=submit]:hover {
+    opacity: 1;
+}
