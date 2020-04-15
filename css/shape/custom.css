@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 102rem;
+  font-size: 1.4rem;
+}
+.tittle {
+  padding: 1rem;
+}
+[class ^= shape__] {
+  background-color: red;
+}
+.shape {
+  margin-top: 2rem;
+}
+.shape__square {
+  width: 10rem;
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+.shape__rectangcle {
+  width: 15rem;
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+.shape__circle {
+  margin-top: 2rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10rem;
+}
+
+.shape__eclip {
+  width: 20rem;
+  height: 10rem;
+  border-radius: 10rem/5rem;
+  margin-top:2rem ;
+
+}
+
+.triangle--up {
+  margin-top: 2rem;
+  width: 0; 
+  height: 0; 
+  border-left: 5rem solid transparent;
+  border-right: 5rem solid transparent;
+  border-bottom: 5rem solid red;
+}
+
+.triangle--down {
+  margin-top: 2rem;
+  width: 0; 
+  height: 0; 
+  border-left: 5rem solid transparent;
+  border-right: 5rem solid transparent;
+  border-top: 5rem solid red;
+}
+
+.triangle--right {
+  margin-top: 2rem;
+  width: 0; 
+  height: 0; 
+  border-top: 5rem solid transparent;
+  border-bottom: 5rem solid transparent;
+  border-left: 5rem solid red;
+}
+
+.triangle--left {
+  margin-top: 2rem;
+  width: 0; 
+  height: 0; 
+  border-top: 5rem solid transparent;
+  border-bottom: 5rem solid transparent;
+  border-right: 5rem solid red;
+}
+
+.start {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: red;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid red;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+}
+
+.start::before {
+  content: '';
+  border-bottom: 80px solid red;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  transform: rotate(-35deg);
+}
+
+.start::after {
+  position: absolute;
+  display: block;
+  color: red;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid red;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}

@@ -1,0 +1,64 @@
+*{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+a{text-decoration: none;}
+.sidebar-left {
+    background-color: #f9fafb;
+    border-radius: 5px;
+	padding: 15px;
+	width: 300px;
+}
+
+.sidebar-left .title-sidebar {
+    color: #333;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 0 0 15px;
+}
+
+.sidebar-left .sidebar-menu{
+    list-style: none;
+}
+.sidebar-left .sidebar-menu li{
+    display: block;
+}
+.sidebar-left .sidebar-menu li a{
+    display: block;
+    font-size: 16px;
+    line-height: 1.2;
+    text-decoration: none;
+    padding: 5px 0;
+    position: relative;
+    color: #333;
+}
+.sidebar-left .sidebar-menu li a:hover{
+    color: #4caf50;
+}
+
+.sidebar-left .sidebar-menu li ul{
+    padding-left: 20px;
+    list-style: none;
+	display: none;
+	padding-left: 20px;
+    list-style: none;
+}
+
+
+.sidebar-left .sidebar-menu li.has-child .icon {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+    background: url(//theme.hstatic.net/1000006434/1000468887/14/menu-arrow.png?v=491) center center no-repeat;
+    background-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar-left .sidebar-menu  li.has-child.menu-open > a .icon{
+    transform: rotate(180deg); /* Khi có class .menu-open thì xoay icon 180 độ */
+}
+.sidebar-left .sidebar-menu  li.has-child.menu-open > ul{
+    display: block; /* Khi có class .menu-open thì menu con kế tiếp hiển thị */
+}
