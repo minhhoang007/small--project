@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+.container {
+    background-color: #2A3A45;
+    margin: 4.5rem 6rem;
+    border: 1px solid #f1f1f1;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+.content {
+    margin: 6rem 4rem;
+    margin-bottom: 0;
+}
+
+input {
+    font-size: 3rem;
+    font-weight: 100;
+    width: 100%;
+    border-radius: 1rem;
+    border: none;
+    padding: 2rem 2.5rem;
+    background-color: #55626A;
+}
+input:focus {
+    outline: none;
+    color: white;
+}
+input::placeholder {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.content-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.title {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #00C57A;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 4rem;
+}
+.plus {
+    color: #fff;
+    font-size: 35px;
+    border: 2px solid #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+     
+}
+
+.mg-top {
+    margin-top: 3.5rem;
+}
+.mg-bt {
+    margin-bottom: 6rem;
+}
+
+.bg-comment {
+    background-color: #4890D9;
+}
+.my-comment, .my-chart, .my-block {
+    color: white;
+    font-size: 3rem !important;
+}
+
+.bg-yellow {
+    background-color: #EBC10A;
+}
