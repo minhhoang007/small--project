@@ -19,7 +19,7 @@ body {
     border: 1px solid #f1f1f1;
     border-radius: 1rem 1rem  0 0;
     margin-bottom: 0;
-    box-shadow: 5px 5px 5px 5px #6b6a6a;
+    box-shadow: 5px 10px 5px 2px #6b6a6a;
 }
 .comp-1 {
     display: flex;
